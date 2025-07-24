@@ -11,7 +11,8 @@ Program ini secara otomatis melakukan pra-pemrosesan dataset, mengirim gambar un
 - Python
 - LMStudio
 - Model VLM yang telah diunduh di LMStudio (contoh: **LLaVA**)
-- Dataset berasal dari Folder `Indonesian License Plate Recognition` (folder test) yang dijadikan 1 dari Folder Label `.txt` &  Folder Images `.jpg`
+- Download Dataset Berikut : https://www.kaggle.com/datasets/juanthomaswijaya/indonesian-license-plate-dataset 
+- Dari Dataset tersebut ambil file yang berasal dari Folder `Indonesian License Plate Recognition` (folder test) yang dijadikan 1 dari Folder Label `.txt` &  Folder Images `.jpg`
 
 ## Pengaturan 
 
