@@ -11,7 +11,7 @@ Program ini secara otomatis melakukan pra-pemrosesan dataset, mengirim gambar un
 - Python 3.8+
 - LMStudio
 - Model VLM yang telah diunduh di LMStudio (contoh: **LLaVA**)
-- Dataset (folder `test` berisi gambar `.jpg` dan anotasi `.txt`)
+- Dataset berasal dari Folder `Indonesian License Plate Recognition` (folder test) yang dijadikan 1 dari Folder Label `.txt` &  Folder Images `.jpg`
 
 ## ⚙️ Pengaturan Cepat
 
@@ -21,7 +21,8 @@ Program ini secara otomatis melakukan pra-pemrosesan dataset, mengirim gambar un
     ├── test/
     │   ├── gambar1.jpg
     │   └── gambar1.txt
-    └── run_ocr_project.py
+    └── predict.py
+    └── evaluate.py
     ```
 
 2.  **Install Dependensi**:
@@ -38,8 +39,15 @@ Program ini secara otomatis melakukan pra-pemrosesan dataset, mengirim gambar un
     - Klik **Start Server**.
 
 2.  **Jalankan Skrip Python**:
-    Buka terminal di direktori proyek dan jalankan:
-    ```bash
-    python run_ocr_project.py
+    Jalankan
     ```
-    Hasil akhir akan disimpan dalam file `hasil_prediksi_final.csv`.
+    `predict.py` 
+    ```
+    
+    di direktori proyek, kemudian :
+    
+    ```  
+    `evaluate.py`
+    ```
+    
+    Hasil akhir akan disimpan dalam file `hasil_prediksi.csv`.
