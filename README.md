@@ -30,12 +30,12 @@ Program ini secara otomatis melakukan pra-pemrosesan dataset, mengirim gambar un
     pip install pandas requests
     ```
 
-## ▶️ Instruksi Eksekusi
+##  Instruksi Eksekusi
 
 1.  **Jalankan Server LMStudio**:
     - Buka LMStudio, muat model VLM Anda.
-    - Buka tab **Local Server** (↔️).
-    - **PENTING**: Centang kotak ✅ **Vision Support**.
+    - Buka tab **Local Server** .
+    - **PENTING**: Centang kotak  **Vision Support**.
     - Klik **Start Server**.
 
 2.  **Jalankan Skrip Python**:
