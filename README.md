@@ -6,14 +6,14 @@ Repositori ini berisi program Python untuk melakukan *Optical Character Recognit
 
 Program ini secara otomatis melakukan pra-pemrosesan dataset, mengirim gambar untuk inferensi, dan mengevaluasi hasilnya menggunakan metrik *Character Error Rate* (CER).
 
-## 🛠️ Prasyarat
+## Prasyarat
 
-- Python 3.8+
+- Python
 - LMStudio
 - Model VLM yang telah diunduh di LMStudio (contoh: **LLaVA**)
 - Dataset berasal dari Folder `Indonesian License Plate Recognition` (folder test) yang dijadikan 1 dari Folder Label `.txt` &  Folder Images `.jpg`
 
-## ⚙️ Pengaturan Cepat
+## Pengaturan 
 
 1.  **Struktur Folder**: Pastikan folder `test` dari dataset berada di direktori yang sama dengan skrip Python Anda.
     ```
