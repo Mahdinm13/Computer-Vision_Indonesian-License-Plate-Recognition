@@ -18,7 +18,7 @@ Program ini secara otomatis melakukan pra-pemrosesan dataset, mengirim gambar un
 
 1.  **Struktur Folder**: Pastikan folder `test` dari dataset berada di direktori yang sama dengan skrip Python Anda.
     ```
-    proyek-ocr/
+    Plat/
     ├── test/
     │   ├── gambar1.jpg
     │   └── gambar1.txt
